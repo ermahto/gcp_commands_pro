@@ -127,6 +127,8 @@ gcloud compute target-http-proxies create http-lb-proxy \
 gcloud compute addresses create lb-ipv4-1 \
 --ip-version=IPV4 \
 --global
+
+https://github.com/CloudRik/Challenge-Lab/tree/73e26d74bfd62df1c988dcd1fe6d04fc9ef63e29/Build-Infrastructure-with-Terraform-on-Google-Cloud-Challenge-Lab
 # Create a forwarding rule
 gcloud compute forwarding-rules create http-content-rule \
 --address=lb-ipv4-1 \
