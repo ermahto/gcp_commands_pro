@@ -135,3 +135,7 @@ gcloud compute forwarding-rules create http-content-rule \
 --global \\
 --target-http-proxy=http-lb-proxy \
 --ports=80
+
+
+
+curl -sSL https://raw.githubusercontent.com/anu11234/Develop-Serverless-Applications-on-Cloud-Run-Challenge-Lab/main/solution.sh | bash
