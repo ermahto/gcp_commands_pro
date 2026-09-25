@@ -139,3 +139,10 @@ gcloud compute forwarding-rules create http-content-rule \
 
 
 curl -sSL https://raw.githubusercontent.com/anu11234/Develop-Serverless-Applications-on-Cloud-Run-Challenge-Lab/main/solution.sh | bash
+
+
+curl -L -O ttps://raw.githubusercontent.com/pspcps/Arcade/refs/heads/main/GSP318.sh
+
+sudo chmod +x GSP318.sh
+
+./GSP318.sh
